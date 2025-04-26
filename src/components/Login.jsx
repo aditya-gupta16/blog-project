@@ -46,7 +46,7 @@ const Login = () => {
         if(res.data.length > 0){
           // console.log(res.data)
           localStorage.setItem("isthenticate", "true")
-          // console.log(localStorage.getItem("isthenticate"))
+          console.log(localStorage.getItem("isthenticate"))
           navigate('/blog')
 
         }
